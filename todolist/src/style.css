@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_div{
+    height: 100vh;
+    background: pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.center_div{
+    border: 4px solid gray;
+    height: 600px;
+    width: 400px;
+    text-align: center; 
+    background-color: rgb(5, 110, 151);
+    overflow: auto;
+    
+}
+.center_div input{
+    width: 208px;
+    height: 43px;
+    font-weight: 800;
+    font-size: revert;
+    text-align: center;
+    border-radius: 15px;
+    outline: none;
+}
+.center_div::-webkit-scrollbar{
+    width: 10px;
+    
+}
+.center_div::-webkit-scrollbar-track{
+    border-radius: 14px;
+    background: darkcyan;
+}
+.center_div::-webkit-scrollbar-thumb{
+    border-radius: 14px;
+    background: #000;
+     
+
+}
+.Add_button{
+    height: 45px;
+    width: 45px;
+    border: 2px solid gray;
+    font-weight: 900;
+    font-size: 15px;
+    color: honeydew;
+    background: #000;
+    border-radius: 15px;
+}
+.Add_button:hover{
+    background: green;
+}
+.todo_style{
+    display: flex;
+    flex-direction: row-reverse;
+    color: black ;
+    font-size: 28px;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.delete_button{
+    height: 28px;
+    width: 28px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    outline: none;
+    color: black;
+    background: gray;
+    margin: 4px;
+}
+.delete_button:hover{
+    color: white;
+    background: tomato;
+}
